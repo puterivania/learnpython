@@ -9,11 +9,11 @@ print(x)
 
 
 
-# y = 0
-# for char in items:
-#     nums = 0
-#     for x in char:
-#         if x in ['w']:
-#             nums = nums + 1
-#     if nums>0: y += 1
-# print(y)
+y = 0
+for char in items:
+    nums = 0
+    for x in char:
+        if x in ['w']:
+            nums = nums + 1
+    if nums>0: y += 1
+print(y)
